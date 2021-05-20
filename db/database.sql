@@ -1,5 +1,5 @@
-CREATE DATABASE  IF NOT EXISTS monitoring2;
-USE monitoring2;
+CREATE DATABASE  IF NOT EXISTS monitoring;
+USE monitoring;
 
 DROP TABLE IF EXISTS nodes;
 CREATE TABLE nodes (
