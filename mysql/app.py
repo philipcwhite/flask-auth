@@ -61,4 +61,4 @@ class Web:
         return render_template('index.html', user = user, rows=rows)
 
 if __name__ == '__main__': 
-    app.run(port=4000)
+    app.run()
