@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Flask: App Testing Portal</title>
+   </head>
+   <body>
+      <div style = "padding: 20px;">
+      Welcome {{user}}!  Click <a href='logout'>here</a> to log out. <br /><br />   
+      <div style = "width: 280px;">
+      <h2>Hosts</h2>
+         <table style="width: 250px;">
+         <div>
+         <thead >
+            <td>Name</td>
+            <td>IP Address</td>
+            <td>Operating System</td>
+         </thead>        
+         {% for i in rows %}
+            <tr>
+               <td>{{i[1]}}</td>
+               <td>{{i[2]}}</td>
+               <td>{{i[3]}}</td>
+            </tr>
+         {% endfor %}
+      </table>
+      </div>
+      </div>
+   </body>
+</html>
