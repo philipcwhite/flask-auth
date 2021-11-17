@@ -82,4 +82,4 @@ with app.app_context():
     D.load_data()
 
 if __name__ == '__main__': 
-    app.run(port=4000)
+    app.run()
